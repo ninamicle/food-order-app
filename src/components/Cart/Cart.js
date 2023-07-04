@@ -15,7 +15,6 @@ const Cart = (props) => {
     return ctx.removeItem(id);
   };
 
-  console.log(ctx.items);
   let cartItems = (
     <ul className={styles["cart-items"]}>
       {ctx.items.map((item) => {
